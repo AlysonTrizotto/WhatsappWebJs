@@ -1,0 +1,25 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    ".env": ".\\.env"
+  },
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Alyson Leandro Trizotto Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "libphonenumber-js": "^1.10.30",
+    "mime-types": "^2.1.35",
+    "nodemon": "^3.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
